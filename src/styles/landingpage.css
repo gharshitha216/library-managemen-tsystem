@@ -1,0 +1,64 @@
+.landingpage{
+    background-color: rgb(35, 96, 96);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 50%; */
+}
+.selectLoginType {
+ /* position: absolute; */
+background-color: white;
+ height: 500px;
+ width: 400px;
+align-items: center;
+} 
+.select h1{
+    text-align: center;
+}
+.login{
+    /* margin-top: 70px; */
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+ img{
+    margin-bottom: 15px;
+}
+.link_alogin a{
+    margin-top: 100px;
+}
+.link_alogin button{
+   /* background-color: aqua;  */
+   padding: 10px;
+   font-size: 15px;
+}
+.user_login button{
+    /* border: none; */
+    /* background-color: aqua; */
+    padding: 10px;
+    font-size: 15px;
+}
+/* .user_login button{
+    border: none;
+} */
+/* .but1{
+    padding: 7px 15px;
+    color: green;
+
+} */
+/* .select  {
+    background-color: beige;
+    height: 50%;
+
+} */
+/* .selectLoginType h1{
+    margin-top: 0;
+} */
+/* .select h1{
+  margin: 40px;
+} */
+/* .Login{
+display: flex;
+justify-content: space-evenly;
+} */

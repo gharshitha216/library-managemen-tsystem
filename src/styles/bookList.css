@@ -1,0 +1,37 @@
+.books{
+    margin: 0;
+    display: flex;
+    /* background-color: aquamarine; */
+    box-shadow: 0 2px 2px gray;
+    
+   
+
+}
+.bookList h1{
+    text-align: center;
+
+}
+.image{
+margin: 20px 40px;
+    /* margin-left: 100px;
+    margin-right: 40px; */
+}
+.delete_book {
+   margin-left: 50px ;
+   padding: 6px 20px;
+   border-radius: 10px;
+   font-size: 15px;
+   color: red;
+   /* border-color: red; */
+   border: 1px solid red;
+
+}
+.Read_book{
+    border: 1px solid blue;
+    color: blue;
+    margin-left: 50px ;
+   padding: 6px 20px;
+   border-radius: 10px;
+   font-size: 15px;
+
+}

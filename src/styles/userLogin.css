@@ -1,0 +1,57 @@
+.userLogin{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 2px black;
+    
+}
+.userform{
+    margin-top: 15%;
+    background-color: aqua;
+    height: 350px;
+    width: 300px;
+
+}
+.userform h1{
+text-align: center;
+margin-bottom: 30px;
+}
+.email_user label{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.user_password label{
+    font-size: 20px;
+    margin-top: 10px;
+}
+ .Userform_input{
+    margin-left: 50px;
+    
+}
+.user_password{
+    margin-top: 10px;
+}
+
+
+.Userform_input input{
+    background: transparent;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    /* border-bottom: black; */
+    outline: none;
+    margin-top: 10px;
+}
+.btn button{
+    margin-top: 20px;
+    background-color: black;
+}
+.user_Login button{
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 18px;
+    font-size: 18px;
+    background-color: rgb(23, 9, 64);
+    color: white;
+    margin-left: 50px;
+}

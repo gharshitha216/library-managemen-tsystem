@@ -1,0 +1,28 @@
+.adminNavbar{
+    margin: 0;
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_links li{
+ display: inline;
+ 
+}
+.navbar h1{
+    color: white;
+padding-left: 30px;
+}
+
+.nav_links a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+.nav_links button{
+    padding: 8px 15px;
+    /* background: transparent; */
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}

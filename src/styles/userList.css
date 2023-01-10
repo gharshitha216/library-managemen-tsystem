@@ -1,0 +1,23 @@
+.userList h1{ 
+    margin: 0;
+     display: flex;
+    justify-content: center;
+     text-align: cente
+     
+}
+ .user_section{
+    padding: 0px 30px;
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+    
+}
+
+.user{
+    border: 1px solid black;
+    margin: 0px 30px;
+    background-image: linear-gradient(pink, brown);
+    padding: 0px 30px;
+    border-radius: 5px;
+}
