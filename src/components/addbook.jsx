@@ -1,5 +1,6 @@
 import { useState } from "react";
-import {useNavigate} from "react-router-dom"
+import {useNavigate} from "react-router-dom";
+import '../styles/addbook.css';
 
 const Addbook = () =>{
     let [title, setTitle]=useState("")
@@ -26,7 +27,10 @@ const Addbook = () =>{
 
     }
     return(
+        <div className="addbooks">
+            
         <div className="add_form">
+        <h1>Add Books To BookList</h1>
             <form action="" onSubmit={handleSubmit}>
                 <div className="title">
                     <input value={title} onChange={(e) => setTitle(e.target.value)} className="add_title" type="text" required placeholder="catogary of books" />
@@ -59,6 +63,7 @@ const Addbook = () =>{
                 </div>
                 <button className="add_btu">Add Book</button>
             </form>
+        </div>
         </div>
     );
 }

@@ -1,5 +1,6 @@
 .landingpage{
-    background-color: rgb(35, 96, 96);
+    /* background-color: rgb(35, 96, 96); */
+    background:linear-gradient( rgb(214, 135, 135), rgb(196, 113, 168));
     height: 100vh;
     display: flex;
     align-items: center;
@@ -9,8 +10,8 @@
 .selectLoginType {
  /* position: absolute; */
 background-color: white;
- height: 500px;
- width: 400px;
+ height: 400px;
+ width: 500px;
 align-items: center;
 } 
 .select h1{

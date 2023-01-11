@@ -1,7 +1,7 @@
 .adminNavbar{
     margin: 0;
     display: flex;
-    background-color: brown;
+    background:linear-gradient( rgb(214, 135, 135), rgb(196, 113, 168));
     justify-content: space-between;
     align-items: center;
 }

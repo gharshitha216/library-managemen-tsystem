@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {useNavigate} from 'react-router-dom';
+import '../styles/adduser.css';
 const AddUser = () =>{
     let [name, setName]= useState("")
     let [age, setAge]=useState("")
@@ -19,14 +20,19 @@ const AddUser = () =>{
         navigate('/admin/add-user')
     }
     return(
+        <div className="user_form">
         <div className="AddUser">
-            <h1>Add A New User</h1>
+            
             <div className="form_adduser">
+            <h1>Add A New User</h1>
             <form action="" onSubmit={handleSubmit}>
                 <div className="name">
+                    {/* <h6>Name</h6> */}
+                    {/* <p>Full Name</p> */}
                     <input type="text" value={name} onChange={(e)=> setName(e.target.value)} className="name"  placeholder="enter name"/>
                 </div>
                 <div className="age">
+                    {/* <p>Enter Age</p> */}
                     <input type="text" value={age} onChange={(e)=> setAge(e.target.value)} min='1'  placeholder=" enter age" />
                 </div>
                 <div className="email">
@@ -39,6 +45,7 @@ const AddUser = () =>{
 
             </form>
             </div>
+        </div>
         </div>
 
     )

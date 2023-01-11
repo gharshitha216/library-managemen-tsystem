@@ -1,0 +1,50 @@
+.addbooks{
+    height: 150vh;
+}
+
+.add_form{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* width: 600px; */
+    text-align: center;
+    /* height: 100vh; */
+    background:linear-gradient( rgb(214, 135, 135), rgb(196, 113, 168));
+}
+.add_form h1{
+    text-align: center;
+    margin:0px;
+    padding: 20px 0px;
+
+}
+.add_form input{
+    outline: none;
+    margin: auto 30px;
+    font-size:16px ;
+    /* padding: 8px 10px; */
+    width: 500px;
+    border:1px solid violet;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.add_form textarea{
+    outline: none;
+    font-size:16px ;
+    padding: 15px 10px;
+    width: 500px;
+    border:1px solid violet;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-sizing: border-box;
+
+}
+.add_btu{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+}
